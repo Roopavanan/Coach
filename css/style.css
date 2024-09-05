@@ -98,7 +98,7 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/s-9.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -238,6 +238,97 @@ text-align: center;}
 #milestone p {
     color: #fff;
 }
+
+/*view count*/
+#view {
+     background: linear-gradient(135deg, #4caf50, #009688);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100%;           /* Full viewport height to center vertically */
+    color: #fff;
+}
+
+.views-counter-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.view-counter-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.views-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.view-count-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.view-counter-container {
+    justify-content: center;
+    align-items: center;
+}
+
+display: flex;
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin: -30px 0;
+}
+
+.about-content {
+    padding-right: 20px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+}
+
 
 /* .service {
     padding: 32px;
